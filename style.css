@@ -1,4 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box
+}
+
 header {
-    display: flex;
-    background-color: rgb(50, 167, 145);
+  display: flex;
+  flex-direction: row;
+  background-color: #32a791;
+  justify-content: space-between;
+  height: 50px
+}
+
+.trybewarts-login {
+  display: flex;
 }
