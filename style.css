@@ -46,7 +46,7 @@ main {
   height: 500px;
 }
 
-#getname {
+.label {
   display: flex;
   flex-direction: row;
 }
