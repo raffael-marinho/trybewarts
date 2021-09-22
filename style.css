@@ -13,7 +13,7 @@ header {
   height: 50px;
 }
 
-header input,
+header input ,
 button {
   margin-right: 10px;
   background: white;
