@@ -54,6 +54,10 @@ button:disabled {
   background-color: rgba(0, 0, 0, 0.24);
 }
 
+#counter {
+  float: right;
+}
+
 .trybewarts-header-logo {
   width: 50px;
   padding: 5px;

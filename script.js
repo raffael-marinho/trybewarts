@@ -13,6 +13,7 @@ loginButton.addEventListener('click', (event) => {
 
 const checkbox = document.querySelector('#label-infos');
 const submit = document.querySelector('#submit-btn');
+
 function toggleButton() {
   if (submit.disabled) {
     submit.disabled = false;
@@ -22,3 +23,14 @@ function toggleButton() {
 }
 
 checkbox.addEventListener('click', toggleButton);
+
+const counter = document.querySelector('#counter');
+const textarea = document.querySelector('#textarea');
+
+showCounter();
+
+function showCounter() {
+  counter.innerText = 500 - textarea.value.length
+}
+
+textarea.addEventListener("input", showCounter);
