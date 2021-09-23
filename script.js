@@ -1,24 +1,24 @@
-const loginButton = document.querySelector("#login-button");
-const inputPassword = document.querySelector("#pass-input");
-const inputEmail = document.querySelector("#email-input");
+const loginButton = document.querySelector('#login-button');
+const inputPassword = document.querySelector('#pass-input');
+const inputEmail = document.querySelector('#email-input');
 
-loginButton.addEventListener("click", (event) => {
+loginButton.addEventListener('click', (event) => {
   event.preventDefault();
-  if (inputEmail.value !== "" || inputPassword.value !== "") {
-    alert("Olá, Tryber!");
+  if (inputEmail.value !== '' || inputPassword.value !== '') {
+    alert('Olá, Tryber!');
   } else {
-    alert("Email ou senha inválidos.");
+    alert('Email ou senha inválidos.');
   }
 });
 
-const funçaoCheckbox = document.querySelector("#label-infos");
-const funçaoDoBotao = document.querySelector("#submit-btn");
-function botao() {
-  if (funçaoDoBotao.disabled === true) {
-    funçaoDoBotao.disabled = false;
+const checkbox = document.querySelector('#label-infos');
+const submit = document.querySelector('#submit-btn');
+function toggleButton() {
+  if (submit.disabled) {
+    submit.disabled = false;
   } else {
-    funçaoDoBotao.disabled = true;
+    submit.disabled = true;
   }
 }
 
-funçaoCheckbox.addEventListener("click", botao);
+checkbox.addEventListener('click', toggleButton);
