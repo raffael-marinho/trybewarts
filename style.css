@@ -11,6 +11,14 @@ header {
   justify-content: space-between;
   align-items: center;
   height: 50px;
+  color: white;
+}
+
+
+footer {
+  background-color: rgb(50, 167, 145);
+  padding: 10px;
+  color: white;
 }
 
 .content > div {
@@ -33,13 +41,17 @@ label {
   padding: 5px;
 }
 
-header input , button {
+input , button , select , textarea {
   margin-right: 10px;
   background: white;
   padding: 5px;
   border: 2px solid rgb(50, 167, 145);
   border-radius: 5px;
   color: black;
+}
+
+button:disabled {
+  background-color: rgba(0, 0, 0, 0.24);
 }
 
 .trybewarts-header-logo {
