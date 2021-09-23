@@ -52,6 +52,7 @@ input , button , select , textarea {
 
 button:disabled {
   background-color: rgba(0, 0, 0, 0.24);
+  border: 2px rgb(170, 170, 170) solid;
 }
 
 #counter {
