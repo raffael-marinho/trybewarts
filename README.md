@@ -18,7 +18,7 @@ Construir páginas que alteram o seu layout de acordo com a orientação da tela
 
 ## Tecnologias Utilizadas:
 |HTML|CSS|JavaScript|
-|-|-|-|-|
+|-|-|-|
 |![icon](./images/html-5.png)|![icon](./images/css-3.png)|![icon](./images/js.png)|
 |Sintaxe JSX|Utilizado na estilização das páginas e dos componentes com styled components|Aplicação das funcionalidades|
 ___
